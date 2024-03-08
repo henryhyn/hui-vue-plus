@@ -1,7 +1,2 @@
-const alert = () => {
-  console.log('hello');
-};
-
-export default {
-  alert
-};
+import Hex from './Hex';
+export { Hex };
