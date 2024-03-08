@@ -1,9 +1,21 @@
 {
-  "name": "hui-vue-plus",
-  "version": "1.0.0",
+  "name": "hui-vue",
+  "version": "3.0.0",
   "description": "",
-  "main": "index.js",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/hui-vue.umd.cjs",
+  "module": "./dist/hui-vue.js",
+  "exports": {
+    ".": {
+      "import": "./dist/hui-vue.js",
+      "require": "./dist/hui-vue.umd.cjs"
+    }
+  },
   "scripts": {
+    "build": "vite build",
     "format": "prettier --write . --ignore-path .gitignore",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,6 +28,7 @@
   "devDependencies": {
     "@prettier/plugin-pug": "^3.0.0",
     "prettier": "^3.2.5",
+    "vite": "^5.1.5",
     "vue": "^3.4.21"
   }
 }
