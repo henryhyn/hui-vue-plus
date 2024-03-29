@@ -5,7 +5,7 @@
   "files.insertFinalNewline": true,
   "files.autoSave": "afterDelay",
   "[vue]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "Vue.volar"
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
