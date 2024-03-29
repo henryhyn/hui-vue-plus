@@ -7,5 +7,10 @@ export default defineConfig({
       name: 'hui',
       entry: resolve(__dirname, 'packages/utils/index.js')
     }
+  },
+  resolve: {
+    alias: {
+      '@': resolve(__dirname, 'packages')
+    }
   }
 });
