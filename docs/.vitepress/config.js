@@ -5,7 +5,7 @@ import { generateSidebar } from 'vitepress-sidebar';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: 'zh-CN',
-  title: 'HUI VUE',
+  title: 'HuiVue',
   description: '基于 Vite + Vue3 的小众组件库',
   lastUpdated: true,
   ignoreDeadLinks: true,
@@ -35,7 +35,7 @@ export default defineConfig({
         scanStartPath: 'guide',
         resolvePath: '/guide/',
         useTitleFromFileHeading: true,
-        manualSortFileNameByPriority: ['getting-started.md']
+        manualSortFileNameByPriority: ['getting-started.md', 'about-project.md']
       },
       {
         documentRootPath: 'docs',
