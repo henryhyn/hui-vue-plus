@@ -22,7 +22,7 @@ npm run docs:dev
 
 ### 开发工具方法
 
-开发工具方法，使用 vitest 测试，命令如下
+开发工具方法，使用 [vitest](https://cn.vitest.dev) 测试，命令如下
 
 ```bash
 npm run test
