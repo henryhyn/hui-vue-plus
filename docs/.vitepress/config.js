@@ -9,6 +9,7 @@ export default defineConfig({
   description: '基于 Vite + Vue3 的小众组件库',
   lastUpdated: true,
   ignoreDeadLinks: true,
+  base: '/hui-vue-plus/',
   head: [
     ['link', { rel: 'shortcut icon', href: '//kysw-static.oss-cn-qingdao.aliyuncs.com/favicon.ico' }],
     ['link', { rel: 'apple-touch-icon', href: '//kysw-static.oss-cn-qingdao.aliyuncs.com/favicon.ico' }]
