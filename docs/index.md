@@ -3,23 +3,21 @@
 layout: home
 
 hero:
-  name: "HUI VUE"
-  text: "基于 Vue3 的小众组件库"
-  tagline: My great project tagline
+  name: HUI VUE
+  tagline: 基于 Vite + Vue3 的小众组件库
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 快速开始
+      link: /guide/getting-started
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 组件
+      link: /components/clipboard
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Vite + Vue3
+    details: 基于 Vue3 的组件库, 通过 Vite 库模式打包.
+  - title: 组件库
+    details: 区别于 Element Plus 的不一样的小众组件库, 方便日常使用.
+  - title: 工具库
+    details: 收集一些日常工具方法, 开箱即用.
 ---
-
