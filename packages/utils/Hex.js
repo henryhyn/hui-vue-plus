@@ -26,11 +26,9 @@ Hex.isIdCard = str =>
     str
   );
 // 判断是否为手机号
-Hex.isPhoneNum = str =>
-  /^(0|86|17951)?(13[0-9]|15[012356789]|17[678]|18[0-9]|14[57])[0-9]{8}$/.test(str);
+Hex.isPhoneNum = str => /^(0|86|17951)?(13[0-9]|15[012356789]|17[678]|18[0-9]|14[57])[0-9]{8}$/.test(str);
 // 判断是否为URL地址
-Hex.isUrl = str =>
-  /[-a-zA-Z0-9@:%._+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_+.~#?&//=]*)/i.test(str);
+Hex.isUrl = str => /[-a-zA-Z0-9@:%._+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_+.~#?&//=]*)/i.test(str);
 
 Hex.empty = () => {};
 Hex.toString = (idx, lst) => lst[idx];
@@ -168,9 +166,7 @@ Hex.validateFileName = (rule, value, cb) => {
   if (!Hex.validString(value)) {
     cb(new Error('请填写文件名'));
   } else if (!/^[a-z_-][a-z0-9_/-]{3,19}/.test(value)) {
-    cb(
-      new Error('文件名由小写英文字母、数字、下划线和中划线组成，不能使用数字开头, 长度4~20个字符.')
-    );
+    cb(new Error('文件名由小写英文字母、数字、下划线和中划线组成，不能使用数字开头, 长度4~20个字符.'));
   } else {
     cb();
   }
