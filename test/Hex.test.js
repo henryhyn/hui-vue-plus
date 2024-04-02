@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { expect, test } from 'vitest';
-import { Hex } from '../packages/utils';
+import { Hex } from '../packages';
 
 const service = axios.create({
   timeout: 5000

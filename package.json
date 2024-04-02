@@ -19,8 +19,8 @@
   "scripts": {
     "build": "vite build",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
-    "docs:format": "node format.mjs docs/*.md docs/**/*.md",
     "format": "prettier --write . --ignore-path .gitignore",
+    "docs:format": "node format.mjs docs/*.md docs/**/*.md",
     "docs:dev": "vitepress dev docs --port 5555",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
