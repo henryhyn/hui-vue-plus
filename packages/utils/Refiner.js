@@ -1,5 +1,7 @@
+// 参考: https://github.com/vinta/pangu.js/blob/master/src/shared/core.js
 export default class Refiner {
   static CRLF_LF = /[ ]*\r?\n/g;
+  static ANS_PUNCT = /(\w)[ ]+(\p{Po})/g;
   static CJK_ANS = /(\p{Unified_Ideograph})(\w)/gu;
   static ANS_CJK = /(\w%?)(\p{Unified_Ideograph})/gu;
   static BRACKET = /（(.+?)）/gu;
@@ -27,6 +29,7 @@ export default class Refiner {
   spacing(text) {
     let newText = (text || '').trim();
     newText = newText.replace(Refiner.CRLF_LF, '\n');
+    newText = newText.replace(Refiner.ANS_PUNCT, '$1$2');
     newText = newText.replace(Refiner.CJK_ANS, '$1 $2');
     newText = newText.replace(Refiner.ANS_CJK, '$1 $2');
     newText = newText.replace(Refiner.BRACKET, '($1)');
