@@ -3,9 +3,9 @@
   "terminal.integrated.copyOnSelection": true,
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
-  "files.autoSave": "afterDelay",
+  "files.autoSave": "onFocusChange",
   "[vue]": {
-    "editor.defaultFormatter": "Vue.volar"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -16,6 +16,10 @@
   "[less]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "editor.renderWhitespace": "all",
   "editor.formatOnSave": true,
   "editor.tabSize": 2
 }
