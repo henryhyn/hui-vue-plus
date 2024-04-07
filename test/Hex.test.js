@@ -8,14 +8,14 @@ const service = axios.create({
 const retrofit = new Hex.Retrofit(service);
 async function getData() {
   const data = await new Promise((resolve, reject) => {
-    retrofit.get('https://jsonplaceholder.typicode.com/posts/1', res => resolve(res));
+    retrofit.get('https://zhiyuanbiji.cn/api/nexus/notes/2eed13e047dcef751c3a9541670f2d7e', res => resolve(res));
   });
   return data;
 }
 
 test('HTTP Get', async () => {
   const res = await getData();
-  expect(res.id).toBe(1);
+  expect(res.data.note.id).toBe(120);
 });
 
 test('Refine text', () => {
