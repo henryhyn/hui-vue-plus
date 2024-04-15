@@ -38,6 +38,14 @@ npm run lint
 npm run docs:format
 ```
 
+### 本地测试
+
+```bash
+npm run build
+npm pack
+npm install <your_path.tgz>
+```
+
 ### 发布文档
 
 通过配置 GitHub Action, 当代码提交到 GitHub 时，将自动构建 HuiVue, 并构建项目文档，然后发布到 GitHub Pages, 这样就看到了。手动构建命令如下
