@@ -26,7 +26,8 @@ export default defineConfig({
       { text: '指南', link: '/guide/', activeMatch: '/guide/' },
       { text: '组件', link: '/components/', activeMatch: '/components/' },
       { text: '工具', link: '/utils/', activeMatch: '/utils/' },
-      { text: '样式', link: '/style/', activeMatch: '/style/' }
+      { text: '样式', link: '/style/', activeMatch: '/style/' },
+      { text: '代码', link: '/snippets/', activeMatch: '/snippets/' }
     ],
 
     sidebar: generateSidebar([
@@ -44,7 +45,8 @@ export default defineConfig({
         useTitleFromFileHeading: true
       },
       { documentRootPath: 'docs', scanStartPath: 'utils', resolvePath: '/utils/', useTitleFromFileHeading: true },
-      { documentRootPath: 'docs', scanStartPath: 'style', resolvePath: '/style/', useTitleFromFileHeading: true }
+      { documentRootPath: 'docs', scanStartPath: 'style', resolvePath: '/style/', useTitleFromFileHeading: true },
+      { documentRootPath: 'docs', scanStartPath: 'snippets', resolvePath: '/snippets/', useTitleFromFileHeading: true }
     ]),
 
     socialLinks: [{ icon: 'github', link: 'https://github.com/henryhyn/hui-vue-plus' }],

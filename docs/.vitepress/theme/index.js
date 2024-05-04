@@ -1,5 +1,6 @@
 import DefaultTheme from 'vitepress/theme';
 import ElementPlus from 'element-plus';
+import zhCn from 'element-plus/es/locale/lang/zh-cn';
 import 'element-plus/dist/index.css';
 import HuiVue from 'hui-vue';
 import 'hui-vue/css';
@@ -10,7 +11,9 @@ import '@vitepress-demo-preview/component/dist/style.css';
 export default {
   extends: DefaultTheme,
   enhanceApp({ app }) {
-    app.use(ElementPlus);
+    app.use(ElementPlus, {
+      locale: zhCn
+    });
     app.use(HuiVue);
     app.component('demo-preview', ElementPlusContainer);
     for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
