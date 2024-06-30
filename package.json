@@ -30,7 +30,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^1.6.8",
+    "axios": "^1.7.2",
     "buffer": "^6.0.3",
     "crypto-js": "^4.2.0",
     "dayjs": "^1.11.11"
@@ -38,22 +38,22 @@
   "devDependencies": {
     "@element-plus/icons-vue": "^2.3.1",
     "@prettier/plugin-pug": "^3.0.0",
-    "@rushstack/eslint-patch": "^1.10.2",
-    "@vitejs/plugin-vue": "^5.0.4",
+    "@rushstack/eslint-patch": "^1.10.3",
+    "@vitejs/plugin-vue": "^5.0.5",
     "@vitepress-demo-preview/component": "^2.3.2",
     "@vitepress-demo-preview/plugin": "^1.2.3",
     "@vue/eslint-config-prettier": "^9.0.0",
-    "@vueuse/core": "^10.9.0",
-    "element-plus": "^2.7.2",
+    "@vueuse/core": "^10.11.0",
+    "element-plus": "^2.7.6",
     "eslint": "^8.57.0",
-    "eslint-plugin-vue": "^9.25.0",
+    "eslint-plugin-vue": "^9.26.0",
     "less": "^4.2.0",
-    "prettier": "^3.2.5",
-    "pug": "^3.0.2",
-    "vite": "^5.2.11",
-    "vitepress": "^1.1.4",
-    "vitepress-sidebar": "^1.22.0",
+    "prettier": "^3.3.2",
+    "pug": "^3.0.3",
+    "vite": "^5.3.2",
+    "vitepress": "^1.2.3",
+    "vitepress-sidebar": "^1.23.2",
     "vitest": "^1.6.0",
-    "vue": "^3.4.26"
+    "vue": "^3.4.31"
   }
 }
