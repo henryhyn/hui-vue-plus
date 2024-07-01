@@ -12,6 +12,13 @@
 
 ## 开发
 
+### 先决条件
+
+- 至少安装 node v18
+- git clone 代码到本地
+- 进入项目，执行 `npm ci`
+- 执行构建 `npm run build`
+
 ### 开发组件
 
 ```bash
