@@ -1,6 +1,6 @@
 <template lang="pug">
 el-input(v-model='content')
-hui-clipboard(type='primary' :value='content' label='一键复制')
+hui-clipboard(:value='content')
 </template>
 
 <script setup>
