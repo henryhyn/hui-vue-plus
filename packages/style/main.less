@@ -35,3 +35,55 @@ body {
 .hui-pad {
   padding: 8px;
 }
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-inline {
+  .list-unstyled();
+  margin-top: 0;
+  margin-bottom: 0;
+
+  > li {
+    display: inline-block;
+  }
+
+  > li:not(:last-child) {
+    margin-right: 8px;
+  }
+
+  &.toolbar {
+    li {
+      margin-bottom: 8px;
+    }
+  }
+
+  &.separated {
+    li:not(:last-child) {
+      margin-right: 5px;
+    }
+
+    li + li:before {
+      margin-right: 5px;
+      color: gray;
+    }
+  }
+
+  &.by-vbar li + li:before {
+    content: '|';
+  }
+
+  &.by-slash li + li:before {
+    content: '/';
+  }
+
+  &.by-gt li + li:before {
+    content: '>';
+  }
+
+  &.by-middot li + li:before {
+    content: '\00b7';
+  }
+}
