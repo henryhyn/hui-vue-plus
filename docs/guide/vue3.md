@@ -1,6 +1,6 @@
 # Vue 3 快速上手
 
-为了提升代码复用, 选择**组合式** API (Composition API).
+为了提升代码复用，选择**组合式** API (Composition API).
 
 ## 单文件组件
 
