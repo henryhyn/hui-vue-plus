@@ -1,6 +1,6 @@
 // 参考: https://github.com/vinta/pangu.js/blob/master/src/shared/core.js
 export default class Refiner {
-  static CRLF_LF = /[ ]*\r?\n/g;
+  static CRLF_LF = /[\t\f\r\x20]*\n/g;
   static ANS_PUNCT = /(\w)[ ]+(\p{Po})/g;
   static CJK_ANS = /(\p{Unified_Ideograph})(\w)/gu;
   static ANS_CJK = /(\w%?)(\p{Unified_Ideograph})/gu;
