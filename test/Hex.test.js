@@ -6,6 +6,7 @@ const service = axios.create({
   timeout: 5000
 });
 const retrofit = new Hex.Retrofit(service);
+
 async function getData() {
   const data = await new Promise((resolve, reject) => {
     retrofit.get('https://zhiyuanbiji.cn/api/nexus/notes/2eed13e047dcef751c3a9541670f2d7e', res => resolve(res));

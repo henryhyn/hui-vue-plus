@@ -8,6 +8,7 @@ p(v-else) Your browser does not support Clipboard API
 <script setup>
 import { useClipboard } from '@vueuse/core';
 import { ElMessage } from 'element-plus';
+
 const props = defineProps({
   type: {
     type: String,

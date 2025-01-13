@@ -18,7 +18,7 @@
   },
   "scripts": {
     "build": "vite build",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "lint": "eslint .",
     "format": "prettier --write . --ignore-path .gitignore",
     "docs:format": "node format.mjs docs/*.md docs/**/*.md",
     "docs:dev": "vitepress dev docs --port 5555",
@@ -39,11 +39,9 @@
   "devDependencies": {
     "@element-plus/icons-vue": "^2.3.1",
     "@prettier/plugin-pug": "^3.2.0",
-    "@rushstack/eslint-patch": "^1.10.5",
     "@vitejs/plugin-vue": "^5.2.1",
     "@vitepress-demo-preview/component": "^2.3.2",
     "@vitepress-demo-preview/plugin": "^1.2.3",
-    "@vue/eslint-config-prettier": "^10.1.0",
     "@vueuse/core": "^12.4.0",
     "element-plus": "^2.9.3",
     "eslint": "^9.18.0",
