@@ -30,30 +30,31 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^1.7.2",
+    "axios": "^1.7.9",
     "buffer": "^6.0.3",
     "crypto-js": "^4.2.0",
-    "dayjs": "^1.11.11"
+    "dayjs": "^1.11.13",
+    "marked": "^15.0.6"
   },
   "devDependencies": {
     "@element-plus/icons-vue": "^2.3.1",
-    "@prettier/plugin-pug": "^3.0.0",
-    "@rushstack/eslint-patch": "^1.10.3",
-    "@vitejs/plugin-vue": "^5.0.5",
+    "@prettier/plugin-pug": "^3.2.0",
+    "@rushstack/eslint-patch": "^1.10.5",
+    "@vitejs/plugin-vue": "^5.2.1",
     "@vitepress-demo-preview/component": "^2.3.2",
     "@vitepress-demo-preview/plugin": "^1.2.3",
-    "@vue/eslint-config-prettier": "^9.0.0",
-    "@vueuse/core": "^10.11.0",
-    "element-plus": "^2.7.6",
-    "eslint": "^8.57.0",
-    "eslint-plugin-vue": "^9.26.0",
-    "less": "^4.2.0",
-    "prettier": "^3.3.2",
+    "@vue/eslint-config-prettier": "^10.1.0",
+    "@vueuse/core": "^12.4.0",
+    "element-plus": "^2.9.3",
+    "eslint": "^9.18.0",
+    "eslint-plugin-vue": "^9.32.0",
+    "less": "^4.2.1",
+    "prettier": "^3.4.2",
     "pug": "^3.0.3",
-    "vite": "^5.3.2",
-    "vitepress": "^1.2.3",
-    "vitepress-sidebar": "^1.23.2",
-    "vitest": "^1.6.0",
-    "vue": "^3.4.31"
+    "vite": "^5.4.11",
+    "vitepress": "^1.5.0",
+    "vitepress-sidebar": "^1.30.2",
+    "vitest": "^2.1.8",
+    "vue": "^3.5.13"
   }
 }
