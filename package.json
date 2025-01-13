@@ -17,6 +17,7 @@
     }
   },
   "scripts": {
+    "prepare": "husky",
     "build": "vite build",
     "lint": "eslint .",
     "format": "prettier --write . --ignore-path .gitignore",
@@ -46,6 +47,7 @@
     "element-plus": "^2.9.3",
     "eslint": "^9.18.0",
     "eslint-plugin-vue": "^9.32.0",
+    "husky": "^9.1.7",
     "less": "^4.2.1",
     "prettier": "^3.4.2",
     "pug": "^3.0.3",
