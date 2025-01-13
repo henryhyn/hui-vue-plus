@@ -36,6 +36,15 @@ body {
   padding: 8px;
 }
 
+a.link-muted {
+  text-decoration: none;
+  color: black;
+
+  &:hover {
+    color: gray;
+  }
+}
+
 .list-unstyled {
   padding-left: 0;
   list-style: none;
@@ -86,4 +95,17 @@ body {
   &.by-middot li + li:before {
     content: '\00b7';
   }
+}
+
+.small {
+  font-size: smaller;
+  color: gray;
+}
+
+.large {
+  font-size: large;
+}
+
+.strong {
+  font-weight: bold;
 }

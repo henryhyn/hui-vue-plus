@@ -4,5 +4,5 @@ el-button(v-else text icon='fold' @click='model = !model')
 </template>
 
 <script setup>
-const model = defineModel();
+const model = defineModel({ type: Boolean });
 </script>
