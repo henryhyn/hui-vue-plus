@@ -7,6 +7,7 @@ export default defineConfig({
   build: {
     lib: {
       name: 'hui',
+      cssFileName: 'style',
       entry: resolve(__dirname, 'packages/index.js')
     },
     rollupOptions: {

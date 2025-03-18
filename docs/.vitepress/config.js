@@ -1,6 +1,8 @@
 import { defineConfig } from 'vitepress';
 import { containerPreview } from '@vitepress-demo-preview/plugin';
 import { generateSidebar } from 'vitepress-sidebar';
+import taskLists from 'markdown-it-task-lists';
+import mk from 'markdown-it-katex';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -11,12 +13,13 @@ export default defineConfig({
   ignoreDeadLinks: true,
   base: '/hui-vue-plus/',
   head: [
+    ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.6.0/katex.min.css' }],
     ['link', { rel: 'shortcut icon', href: '//kysw-static.oss-cn-qingdao.aliyuncs.com/favicon.ico' }],
     ['link', { rel: 'apple-touch-icon', href: '//kysw-static.oss-cn-qingdao.aliyuncs.com/favicon.ico' }]
   ],
   markdown: {
-    config(md) {
-      md.use(containerPreview);
+    config: md => {
+      md.use(containerPreview).use(taskLists).use(mk, { throwOnError: false, errorColor: ' #cc0000' });
     }
   },
   themeConfig: {

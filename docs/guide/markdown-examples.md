@@ -83,3 +83,14 @@ This is a details block.
 ## More
 
 Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).
+
+## 待办列表
+
+- [ ] 未完成
+- [x] 已完成
+
+## 数学公式
+
+给定直角三角形的两条直角边长分别为 $a$ 和 $b$, 斜边长为 $c$, 那么
+
+$$a^2+b^2=c^2$$
