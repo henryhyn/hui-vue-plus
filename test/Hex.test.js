@@ -20,7 +20,7 @@ test('HTTP Get', async () => {
 });
 
 test('Refine text', () => {
-  expect(Hex.refine('中,文en12')).toBe('中，文 en12\n');
+  expect(Hex.formatMarkdown('中,文en12')).toBe('中，文 en12\n');
 });
 
 test('henryhyn@163.com is a email address', () => {

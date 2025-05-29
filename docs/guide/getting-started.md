@@ -19,7 +19,7 @@ import 'hui-vue/css';
 app.use(HuiVue);
 ```
 
-使用组件，比如[剪贴板](../components/clipboard.md)。
+使用组件，比如 [剪贴板](../components/clipboard.md)。
 
 ## 使用工具方法
 

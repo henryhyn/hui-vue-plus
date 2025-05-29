@@ -3,7 +3,7 @@ import 'dayjs/locale/zh-cn';
 import relativeTime from 'dayjs/plugin/relativeTime';
 import { Buffer } from 'buffer';
 import CryptoJS from 'crypto-js';
-import Refiner from './Refiner';
+import MDF from 'markdown-formatter';
 import Retrofit from './Retrofit';
 
 dayjs.locale('zh-cn');
@@ -11,9 +11,8 @@ dayjs.extend(relativeTime);
 
 const Hex = {};
 
-Hex.Refiner = Refiner;
-Hex.refiner = new Refiner();
-Hex.refine = text => Hex.refiner.refine(text);
+Hex.refine = text => MDF.refine(text);
+Hex.formatMarkdown = text => MDF.format(text);
 Hex.Retrofit = Retrofit;
 
 // 参考: https://segmentfault.com/a/1190000011966867
