@@ -50,7 +50,7 @@
     "eslint-plugin-vue": "^10.6.2",
     "husky": "^9.1.7",
     "less": "^4.4.2",
-    "markdown-it-katex": "^2.0.3",
+    "markdown-it-katex-vitepress": "^4.0.2",
     "markdown-it-task-lists": "^2.1.1",
     "prettier": "^3.7.3",
     "pug": "^3.0.3",
