@@ -93,4 +93,6 @@ Check out the documentation for the [full list of markdown extensions](https://v
 
 给定直角三角形的两条直角边长分别为 $a$ 和 $b$，斜边长为 $c$，那么
 
-$a^2+b^2=c^2$
+$$
+a^2+b^2=c^2
+$$

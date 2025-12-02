@@ -14,7 +14,7 @@
 
 ### 先决条件
 
-- 至少安装 node v18
+- 至少安装 node v22.12+
 - git clone 代码到本地
 - 进入项目，执行 `npm ci`
 - 执行构建 `npm run build`
@@ -37,7 +37,7 @@ npm run test
 
 ### 统一代码风格
 
-为了规范代码和文档，同时使用了 `prettier`, `lint`，以及自己写的 `docs:format` (待完善)
+为了规范代码和文档，同时使用了 `prettier`, `lint`，以及自己写的 `docs:format`
 
 ```bash
 npm run format
