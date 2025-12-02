@@ -22,6 +22,7 @@ export default defineConfig({
     }
   },
   resolve: {
+    conditions: ['node', 'import'],
     alias: {
       '@': resolve(__dirname, 'packages')
     }
