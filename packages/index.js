@@ -5,8 +5,9 @@ import HuiClipboard from '@/components/HuiClipboard.vue';
 import HuiHamburger from '@/components/HuiHamburger.vue';
 import HuiTagEditor from '@/components/HuiTagEditor.vue';
 import HuiDiff from '@/components/HuiDiff.vue';
+import HuiAceEditor from '@/components/HuiAceEditor.vue';
 
-const components = [HuiClipboard, HuiHamburger, HuiTagEditor, HuiDiff];
+const components = [HuiClipboard, HuiHamburger, HuiTagEditor, HuiDiff, HuiAceEditor];
 
 const install = app => {
   components.forEach(component => {
