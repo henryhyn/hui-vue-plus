@@ -12,7 +12,7 @@
 **单文件组件** (Single-File Components, SFC)
 
 :::preview
-demo-preview=../examples/vue3/demo1.vue
+demo-preview=@/vue3/demo1.vue
 :::
 
 ## 组件

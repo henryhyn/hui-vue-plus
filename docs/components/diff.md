@@ -3,5 +3,5 @@
 ## 基础用法
 
 :::preview
-demo-preview=../examples/diff/demo1.vue
+demo-preview=@/diff/demo1.vue
 :::

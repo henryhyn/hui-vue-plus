@@ -3,11 +3,11 @@
 ## 基础用法
 
 :::preview
-demo-preview=../examples/button/demo2.vue
+demo-preview=@/button/demo2.vue
 :::
 
 ## 常用方法
 
 :::preview
-demo-preview=../examples/button/demo1.vue
+demo-preview=@/button/demo1.vue
 :::
