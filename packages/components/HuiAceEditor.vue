@@ -36,7 +36,7 @@ const props = defineProps({
   }
 });
 
-const emit = defineEmits(['update:modelValue', 'change']);
+const emit = defineEmits(['update:modelValue', 'change', 'init']);
 
 const editorStyle = computed(() => ({
   width: typeof props.width === 'number' ? `${props.width}px` : props.width,
@@ -71,6 +71,8 @@ const initialize = () => {
     emit('update:modelValue', content);
     emit('change', content);
   });
+
+  emit('init', editor.value);
 };
 onMounted(initialize);
 onBeforeUnmount(() => {
